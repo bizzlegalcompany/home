@@ -1,0 +1,872 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#F0EBE5">
+  <meta name="description" content="BizzLegal — Tư vấn thành lập doanh nghiệp, giấy phép và hồ sơ đầu tư. Website sắp ra mắt.">
+  <meta name="robots" content="index,follow">
+  <title>BizzLegal — Coming Soon</title>
+  <link rel="icon" type="image/png" href="assets/bizzlegal-favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,100..1000&amp;display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --brand: #002229;
+      --paper: #F0EBE5;
+      --ink: #000000;
+      --ink-soft: #282828;
+      --line: rgba(0, 34, 41, 0.18);
+      --font: "Google Sans Flex", sans-serif;
+      --page-x: clamp(24px, 4.2vw, 76px);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { background: var(--paper); }
+
+    body {
+      min-width: 320px;
+      min-height: 100svh;
+      margin: 0;
+      color: var(--ink);
+      background:
+        linear-gradient(90deg, transparent calc(50% - .5px), rgba(0, 34, 41, .055) 50%, transparent calc(50% + .5px)),
+        var(--paper);
+      font-family: var(--font);
+      font-optical-sizing: auto;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    button, a { -webkit-tap-highlight-color: transparent; }
+
+    a { color: inherit; }
+
+    .skip-link {
+      position: fixed;
+      top: 12px;
+      left: 12px;
+      z-index: 20;
+      padding: 10px 14px;
+      color: var(--paper);
+      background: var(--ink);
+      border-radius: 4px;
+      transform: translateY(-160%);
+      transition: transform .2s ease;
+    }
+
+    .skip-link:focus { transform: translateY(0); }
+
+    .site-shell {
+      position: relative;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      min-height: 100svh;
+      overflow: hidden;
+      isolation: isolate;
+    }
+
+    .site-shell::before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      width: min(54vw, 860px);
+      aspect-ratio: 1;
+      right: -21vw;
+      bottom: -34vw;
+      border: 1px solid rgba(0, 34, 41, .20);
+      border-radius: 50%;
+      box-shadow:
+        0 0 0 clamp(60px, 8vw, 150px) rgba(0, 34, 41, .035),
+        0 0 0 clamp(130px, 17vw, 300px) rgba(0, 34, 41, .025);
+      pointer-events: none;
+      transform-origin: center;
+      will-change: transform, opacity;
+      animation: ringDrift 12s cubic-bezier(.45, 0, .55, 1) infinite alternate;
+    }
+
+    .masthead {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 102px;
+      padding: 24px var(--page-x);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    .brand-logo {
+      display: block;
+      width: clamp(238px, 20vw, 330px);
+      height: auto;
+      mix-blend-mode: multiply;
+    }
+
+    .header-tools {
+      display: flex;
+      align-items: center;
+      gap: clamp(18px, 2.5vw, 42px);
+    }
+
+    .status {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--ink-soft);
+      font-size: 11px;
+      font-weight: 400;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .status::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      background: var(--brand);
+      border-radius: 50%;
+      box-shadow: 0 0 0 5px rgba(0, 34, 41, .1);
+      animation: statusPulse 2.8s ease-out infinite;
+    }
+
+    .lang-switch {
+      display: flex;
+      gap: 2px;
+      padding: 3px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+    }
+
+    .lang-switch button {
+      min-width: 46px;
+      min-height: 34px;
+      padding: 7px 10px;
+      color: var(--ink-soft);
+      background: transparent;
+      border: 0;
+      border-radius: 999px;
+      font: 400 11px/1 var(--font);
+      letter-spacing: .08em;
+      cursor: pointer;
+    }
+
+    .lang-switch button[aria-pressed="true"] {
+      color: var(--paper);
+      background: var(--ink);
+    }
+
+    .lang-switch button:focus-visible,
+    .brand:focus-visible {
+      outline: 3px solid rgba(0, 34, 41, .3);
+      outline-offset: 3px;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: minmax(0, 1.62fr) minmax(330px, .78fr);
+      min-height: 0;
+    }
+
+    .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 610px;
+      padding: clamp(56px, 8vh, 102px) var(--page-x) clamp(42px, 6vh, 72px);
+      border-right: 1px solid var(--line);
+    }
+
+    .eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin: 0 0 clamp(28px, 5vh, 58px);
+      color: var(--brand);
+      font-size: 11px;
+      font-weight: 400;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 40px;
+      height: 1px;
+      background: currentColor;
+    }
+
+    h1 {
+      max-width: 950px;
+      margin: 0;
+      font-family: var(--font);
+      font-size: clamp(58px, 7.2vw, 126px);
+      font-weight: 400;
+      letter-spacing: -.05em;
+      line-height: .89;
+    }
+
+    h1 em {
+      color: var(--brand);
+      font-weight: inherit;
+    }
+
+    .intro-bottom {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(220px, .55fr);
+      align-items: end;
+      gap: clamp(36px, 7vw, 120px);
+      margin-top: clamp(42px, 6vh, 72px);
+    }
+
+    .lead {
+      max-width: 650px;
+      margin: 0;
+      color: var(--ink-soft);
+      font-size: clamp(17px, 1.35vw, 21px);
+      line-height: 1.55;
+      letter-spacing: -.015em;
+    }
+
+    .launch-note {
+      margin: 0;
+      padding-top: 14px;
+      border-top: 1px solid var(--ink);
+      color: var(--ink);
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: .04em;
+      line-height: 1.45;
+      text-transform: uppercase;
+    }
+
+    .services {
+      display: flex;
+      flex-direction: column;
+      padding: clamp(36px, 6vh, 66px) clamp(28px, 3.6vw, 64px);
+      background: rgba(0, 34, 41, .035);
+    }
+
+    .services-title {
+      margin: 0 0 28px;
+      color: var(--ink-soft);
+      font-size: 10px;
+      font-weight: 400;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+
+    .service-list {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      counter-reset: service;
+      border-top: 1px solid var(--line);
+    }
+
+    .service-list li {
+      position: relative;
+      display: grid;
+      grid-template-columns: 34px 1fr;
+      gap: 15px;
+      align-items: start;
+      padding: clamp(25px, 3.7vh, 42px) 0;
+      border-bottom: 1px solid var(--line);
+      counter-increment: service;
+    }
+
+    .service-list li::before {
+      content: "0" counter(service);
+      padding-top: 5px;
+      color: var(--brand);
+      font-size: 10px;
+      font-weight: 400;
+      letter-spacing: .08em;
+    }
+
+    .service-name {
+      display: block;
+      font-family: var(--font);
+      font-size: clamp(28px, 2.15vw, 40px);
+      letter-spacing: -.04em;
+      line-height: 1.05;
+    }
+
+    .service-desc {
+      display: block;
+      max-width: 330px;
+      margin-top: 10px;
+      color: var(--ink-soft);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .services-foot {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 28px;
+      margin-top: auto;
+      padding-top: 40px;
+    }
+
+    .domain {
+      margin: 0;
+      color: var(--ink);
+      font-size: clamp(18px, 1.35vw, 23px);
+      font-weight: 400;
+      letter-spacing: -.03em;
+    }
+
+    .countdown {
+      min-width: min(100%, 218px);
+    }
+
+    .intro-countdown {
+      width: min(100%, 340px);
+      margin-top: clamp(34px, 4.5vh, 50px);
+    }
+
+    .intro-countdown .countdown-label { text-align: left; }
+
+    .countdown-label {
+      margin: 0 0 10px;
+      color: var(--ink-soft);
+      font-size: 9px;
+      letter-spacing: .14em;
+      text-align: right;
+      text-transform: uppercase;
+    }
+
+    .countdown-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(52px, 1fr));
+      border-top: 1px solid var(--brand);
+    }
+
+    .countdown-unit {
+      padding: 10px 0 0 14px;
+      border-left: 1px solid var(--line);
+    }
+
+    .countdown-unit:first-child {
+      padding-left: 0;
+      border-left: 0;
+    }
+
+    .countdown-value {
+      display: block;
+      font-family: var(--font);
+      font-size: clamp(26px, 2vw, 36px);
+      font-variant-numeric: tabular-nums;
+      letter-spacing: -.04em;
+      line-height: 1;
+    }
+
+    .countdown-name {
+      display: block;
+      margin-top: 5px;
+      color: var(--ink-soft);
+      font-size: 8px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    .footer-brand {
+      display: grid;
+      gap: 5px;
+    }
+
+    .footer-member {
+      color: var(--ink);
+      letter-spacing: .045em;
+    }
+
+    footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      min-height: 68px;
+      padding: 17px var(--page-x);
+      color: var(--ink-soft);
+      border-top: 1px solid var(--line);
+      font-size: 10px;
+      letter-spacing: .075em;
+      line-height: 1.45;
+      text-transform: uppercase;
+    }
+
+    footer p { margin: 0; }
+
+    footer .disclaimer {
+      max-width: 620px;
+      text-align: right;
+    }
+
+    [data-reveal] {
+      opacity: 0;
+      transform: translateY(18px);
+      animation: reveal .75s cubic-bezier(.2, .75, .25, 1) forwards;
+    }
+
+    [data-reveal="2"] { animation-delay: .10s; }
+    [data-reveal="3"] { animation-delay: .20s; }
+    [data-reveal="4"] { animation-delay: .30s; }
+
+    @keyframes reveal {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes statusPulse {
+      0%, 55%, 100% { box-shadow: 0 0 0 5px rgba(0, 34, 41, .1); }
+      18% { box-shadow: 0 0 0 9px rgba(0, 34, 41, 0); }
+    }
+
+    @keyframes ringDrift {
+      0% { transform: translate3d(0, 0, 0) scale(.96); opacity: .72; }
+      48% { transform: translate3d(-2.2vw, -1.4vh, 0) scale(1.035); opacity: 1; }
+      100% { transform: translate3d(-.7vw, -3.2vh, 0) scale(.99); opacity: .82; }
+    }
+
+    @media (max-width: 980px) {
+      body { background: var(--paper); }
+
+      .masthead { min-height: 88px; }
+
+      main { grid-template-columns: 1fr; }
+
+      .intro {
+        min-height: auto;
+        padding-top: clamp(54px, 9vw, 84px);
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      h1 { max-width: 800px; }
+
+      .intro-bottom {
+        margin-top: clamp(48px, 8vw, 72px);
+      }
+
+      .services { min-height: 620px; }
+
+      .service-list li { grid-template-columns: 48px 1fr; }
+
+      .service-name { font-size: clamp(34px, 5vw, 48px); }
+    }
+
+    @media (max-width: 640px) {
+      :root { --page-x: 20px; }
+
+      .site-shell::before {
+        width: 92vw;
+        right: -46vw;
+        bottom: -16vw;
+      }
+
+      .masthead {
+        min-height: 76px;
+        padding-block: 18px;
+      }
+
+      .masthead {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 16px;
+      }
+
+      .brand-logo { width: min(255px, 78vw); }
+
+      .header-tools { width: 100%; }
+
+      .lang-switch {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      .lang-switch button { width: 100%; }
+
+      .status { display: none; }
+
+      .intro {
+        padding-top: 48px;
+        padding-bottom: 36px;
+      }
+
+      .eyebrow {
+        margin-bottom: 32px;
+        font-size: 10px;
+      }
+
+      h1 {
+        max-width: 355px;
+        font-size: clamp(54px, 17vw, 78px);
+        line-height: .91;
+      }
+
+      .intro-bottom {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        margin-top: 54px;
+      }
+
+      .intro-countdown {
+        width: 100%;
+        max-width: 330px;
+        margin-top: 36px;
+      }
+
+      .lead {
+        max-width: 470px;
+        font-size: 17px;
+      }
+
+      .launch-note { max-width: 220px; }
+
+      .services {
+        min-height: auto;
+        padding: 40px var(--page-x) 36px;
+      }
+
+      .services-title { margin-bottom: 22px; }
+
+      .service-list li {
+        grid-template-columns: 32px 1fr;
+        gap: 10px;
+        padding: 27px 0;
+      }
+
+      .service-name { font-size: 31px; }
+
+      .service-desc { font-size: 12px; }
+
+      .services-foot {
+        align-items: flex-start;
+        flex-direction: column;
+        padding-top: 38px;
+      }
+
+      .countdown { width: 100%; }
+
+      .countdown-label { text-align: left; }
+
+      .countdown-value { font-size: 32px; }
+
+      footer {
+        align-items: flex-start;
+        flex-direction: column;
+        min-height: auto;
+        padding-block: 24px;
+      }
+
+      footer .disclaimer {
+        max-width: 390px;
+        text-align: left;
+      }
+    }
+
+    @media (max-height: 760px) and (min-width: 981px) {
+      .masthead { min-height: 78px; }
+      .intro { min-height: 520px; padding-top: 48px; padding-bottom: 38px; }
+      .eyebrow { margin-bottom: 30px; }
+      .intro-bottom { margin-top: 55px; }
+      .services { padding-top: 34px; padding-bottom: 34px; }
+      .service-list li { padding-block: 24px; }
+      footer { min-height: 58px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        scroll-behavior: auto !important;
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+      }
+    }
+
+    @media print {
+      body { background: white; }
+      .site-shell { min-height: auto; }
+      .lang-switch { display: none; }
+      [data-reveal] { opacity: 1; transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main-content" data-i18n="skipLink">Chuyển đến nội dung chính</a>
+
+  <div class="site-shell">
+    <header class="masthead">
+      <a class="brand" href="/" aria-label="BizzLegal — Trang chủ" data-i18n-aria="homeLabel">
+        <img class="brand-logo" src="assets/bizzlegal-logo.png" alt="BizzLegal — Business &amp; Investment Consulting" width="1711" height="651">
+      </a>
+
+      <div class="header-tools">
+        <span class="status" data-i18n="status">Đang hoàn thiện</span>
+        <div class="lang-switch" role="group" aria-label="Chọn ngôn ngữ" data-i18n-aria="languageLabel">
+          <button type="button" data-lang="vi" aria-pressed="true">VI</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+          <button type="button" data-lang="zh" aria-pressed="false">中文</button>
+          <button type="button" data-lang="ko" aria-pressed="false">한국</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="intro" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow" data-i18n="eyebrow" data-reveal="1">BizzLegal · Coming soon</p>
+          <h1 id="page-title" data-i18n-html="title" data-reveal="2">Khởi đầu đúng.<br><em>Vận hành vững.</em></h1>
+          <div class="countdown intro-countdown" role="timer" aria-live="off" aria-atomic="true" data-reveal="3">
+            <p class="countdown-label" data-i18n="countdownLabel">Ra mắt trong vòng 48 giờ tới</p>
+            <div class="countdown-grid">
+              <div class="countdown-unit">
+                <span class="countdown-value" id="countdown-hours">48</span>
+                <span class="countdown-name" data-i18n="hours">Giờ</span>
+              </div>
+              <div class="countdown-unit">
+                <span class="countdown-value" id="countdown-minutes">00</span>
+                <span class="countdown-name" data-i18n="minutes">Phút</span>
+              </div>
+              <div class="countdown-unit">
+                <span class="countdown-value" id="countdown-seconds">00</span>
+                <span class="countdown-name" data-i18n="seconds">Giây</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="intro-bottom" data-reveal="3">
+          <p class="lead" data-i18n="lead">BizzLegal đang hoàn thiện nền tảng hỗ trợ doanh nghiệp từ thủ tục thành lập, giấy phép đến hồ sơ đầu tư — rõ quy trình, đúng yêu cầu và tiết kiệm thời gian triển khai.</p>
+          <p class="launch-note" data-i18n="launchNote">Website chính thức<br>đang được hoàn thiện</p>
+        </div>
+      </section>
+
+      <aside class="services" aria-labelledby="services-title">
+        <p class="services-title" id="services-title" data-i18n="servicesTitle" data-reveal="2">Lĩnh vực hỗ trợ</p>
+
+        <ol class="service-list" data-reveal="3">
+          <li>
+            <div>
+              <span class="service-name" data-i18n="service1">Thành lập doanh nghiệp</span>
+              <span class="service-desc" data-i18n="service1Desc">Chuẩn bị hồ sơ và đồng hành trong quá trình đăng ký.</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <span class="service-name" data-i18n="service2">Giấy phép kinh doanh</span>
+              <span class="service-desc" data-i18n="service2Desc">Tư vấn thủ tục và yêu cầu tuân thủ theo từng lĩnh vực.</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <span class="service-name" data-i18n="service3">Hồ sơ đầu tư</span>
+              <span class="service-desc" data-i18n="service3Desc">Hỗ trợ nhà đầu tư chuẩn bị và triển khai hồ sơ cần thiết.</span>
+            </div>
+          </li>
+        </ol>
+
+        <div class="services-foot" data-reveal="4">
+          <p class="domain">bizlegal.asia</p>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <div class="footer-brand">
+        <p>© <span id="year"></span> BizzLegal</p>
+        <p class="footer-member" data-i18n="member">Một thành viên của OscartranAds</p>
+      </div>
+      <p class="disclaimer" data-i18n="disclaimer">Đơn vị tư vấn doanh nghiệp độc lập · Không phải website của cơ quan nhà nước</p>
+    </footer>
+  </div>
+
+  <script>
+    (() => {
+      const copy = {
+        vi: {
+          pageTitle: 'BizzLegal — Coming Soon',
+          description: 'BizzLegal — Tư vấn thành lập doanh nghiệp, giấy phép và hồ sơ đầu tư. Website sắp ra mắt.',
+          skipLink: 'Chuyển đến nội dung chính',
+          homeLabel: 'BizzLegal — Trang chủ',
+          languageLabel: 'Chọn ngôn ngữ',
+          status: 'Đang hoàn thiện',
+          eyebrow: 'BizzLegal · Coming soon',
+          title: 'Khởi đầu đúng.<br><em>Vận hành vững.</em>',
+          lead: 'BizzLegal đang hoàn thiện nền tảng hỗ trợ doanh nghiệp từ thủ tục thành lập, giấy phép đến hồ sơ đầu tư — rõ quy trình, đúng yêu cầu và tiết kiệm thời gian triển khai.',
+          launchNote: 'Website chính thức\nđang được hoàn thiện',
+          servicesTitle: 'Lĩnh vực hỗ trợ',
+          service1: 'Thành lập doanh nghiệp',
+          service1Desc: 'Chuẩn bị hồ sơ và đồng hành trong quá trình đăng ký.',
+          service2: 'Giấy phép kinh doanh',
+          service2Desc: 'Tư vấn thủ tục và yêu cầu tuân thủ theo từng lĩnh vực.',
+          service3: 'Hồ sơ đầu tư',
+          service3Desc: 'Hỗ trợ nhà đầu tư chuẩn bị và triển khai hồ sơ cần thiết.',
+          countdownLabel: 'Ra mắt trong vòng 48 giờ tới',
+          countdownDone: 'Thời điểm ra mắt đã đến',
+          hours: 'Giờ',
+          minutes: 'Phút',
+          seconds: 'Giây',
+          member: 'Một thành viên của OscartranAds',
+          disclaimer: 'Đơn vị tư vấn doanh nghiệp độc lập · Không phải website của cơ quan nhà nước'
+        },
+        en: {
+          pageTitle: 'BizzLegal — Coming Soon',
+          description: 'BizzLegal — Business formation, licensing and investment procedure support. Coming soon.',
+          skipLink: 'Skip to main content',
+          homeLabel: 'BizzLegal — Home',
+          languageLabel: 'Choose language',
+          status: 'In development',
+          eyebrow: 'BizzLegal · Coming soon',
+          title: 'Start right.<br><em>Build with confidence.</em>',
+          lead: 'BizzLegal is building a practical platform for business formation, licensing and investment procedures — with clear processes, precise requirements and more efficient execution.',
+          launchNote: 'Official website\nis now in development',
+          servicesTitle: 'Our focus',
+          service1: 'Business formation',
+          service1Desc: 'Document preparation and guidance throughout registration.',
+          service2: 'Business licensing',
+          service2Desc: 'Procedure and compliance guidance tailored to each sector.',
+          service3: 'Investment procedures',
+          service3Desc: 'Essential documentation support for investors and businesses.',
+          countdownLabel: 'Launching within the next 48 hours',
+          countdownDone: 'It is time to launch',
+          hours: 'Hours',
+          minutes: 'Minutes',
+          seconds: 'Seconds',
+          member: 'A member of OscartranAds',
+          disclaimer: 'Independent business consultancy · Not a government website'
+        },
+        zh: {
+          pageTitle: 'BizzLegal — 即将上线',
+          description: 'BizzLegal — 公司设立、经营许可与投资手续咨询。网站即将上线。',
+          skipLink: '跳至主要内容',
+          homeLabel: 'BizzLegal — 首页',
+          languageLabel: '选择语言',
+          status: '网站筹备中',
+          eyebrow: 'BizzLegal · 即将上线',
+          title: '正确起步。<br><em>稳健运营。</em>',
+          lead: 'BizzLegal 正在打造一站式企业支持平台，涵盖公司设立、经营许可与投资手续——流程清晰、要求准确、执行高效。',
+          launchNote: '官方网站\n正在筹备中',
+          servicesTitle: '服务领域',
+          service1: '公司设立',
+          service1Desc: '协助准备文件并全程支持注册流程。',
+          service2: '经营许可',
+          service2Desc: '针对不同行业提供手续与合规咨询。',
+          service3: '投资手续',
+          service3Desc: '协助投资者和企业准备并办理必要文件。',
+          countdownLabel: '将在48小时内上线',
+          countdownDone: '上线时刻已到',
+          hours: '小时',
+          minutes: '分钟',
+          seconds: '秒',
+          member: 'OscartranAds 旗下成员',
+          disclaimer: '独立企业咨询机构 · 非政府官方网站'
+        },
+        ko: {
+          pageTitle: 'BizzLegal — 곧 공개됩니다',
+          description: 'BizzLegal — 법인 설립, 사업 인허가 및 투자 절차 컨설팅. 곧 공개됩니다.',
+          skipLink: '주요 콘텐츠로 이동',
+          homeLabel: 'BizzLegal — 홈',
+          languageLabel: '언어 선택',
+          status: '웹사이트 준비 중',
+          eyebrow: 'BizzLegal · 곧 공개됩니다',
+          title: '올바른 시작.<br><em>안정적인 운영.</em>',
+          lead: 'BizzLegal은 법인 설립, 사업 인허가, 투자 절차를 아우르는 기업 지원 플랫폼을 준비하고 있습니다. 명확한 절차와 정확한 요건을 바탕으로 효율적인 실행을 지원합니다.',
+          launchNote: '공식 웹사이트\n준비 중',
+          servicesTitle: '주요 지원 분야',
+          service1: '법인 설립',
+          service1Desc: '등록에 필요한 서류 준비와 절차 전반을 지원합니다.',
+          service2: '사업 인허가',
+          service2Desc: '업종별 절차와 준수 요건에 대한 자문을 제공합니다.',
+          service3: '투자 절차',
+          service3Desc: '투자자와 기업에 필요한 서류 준비 및 절차를 지원합니다.',
+          countdownLabel: '48시간 이내 공개',
+          countdownDone: '공개 시간이 되었습니다',
+          hours: '시간',
+          minutes: '분',
+          seconds: '초',
+          member: 'OscartranAds의 일원',
+          disclaimer: '독립 기업 컨설팅 기관 · 정부 기관 웹사이트가 아닙니다'
+        }
+      };
+
+      const metaDescription = document.querySelector('meta[name="description"]');
+      const languageButtons = [...document.querySelectorAll('[data-lang]')];
+      let currentLanguage = 'vi';
+
+      const setLanguage = (language) => {
+        const selected = copy[language] || copy.vi;
+        currentLanguage = copy[language] ? language : 'vi';
+        document.documentElement.lang = language;
+        document.title = selected.pageTitle;
+        metaDescription.setAttribute('content', selected.description);
+
+        document.querySelectorAll('[data-i18n]').forEach((element) => {
+          const value = selected[element.dataset.i18n];
+          if (value) element.textContent = value;
+        });
+
+        document.querySelectorAll('[data-i18n-html]').forEach((element) => {
+          const value = selected[element.dataset.i18nHtml];
+          if (value) element.innerHTML = value;
+        });
+
+        document.querySelectorAll('[data-i18n-aria]').forEach((element) => {
+          const value = selected[element.dataset.i18nAria];
+          if (value) element.setAttribute('aria-label', value);
+        });
+
+        document.querySelector('.launch-note').innerHTML = selected.launchNote.replace('\n', '<br>');
+        languageButtons.forEach((button) => {
+          button.setAttribute('aria-pressed', String(button.dataset.lang === language));
+        });
+
+        try { localStorage.setItem('bizlegal-language', language); } catch (_) {}
+      };
+
+      languageButtons.forEach((button) => {
+        button.addEventListener('click', () => setLanguage(button.dataset.lang));
+      });
+
+      let savedLanguage = 'vi';
+      try { savedLanguage = localStorage.getItem('bizlegal-language') || 'vi'; } catch (_) {}
+      setLanguage(savedLanguage);
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      const launchDeadline = new Date('2026-08-25T23:43:54+07:00').getTime();
+      const countdownHours = document.getElementById('countdown-hours');
+      const countdownMinutes = document.getElementById('countdown-minutes');
+      const countdownSeconds = document.getElementById('countdown-seconds');
+      const countdownLabel = document.querySelector('.countdown-label');
+
+      const pad = (value) => String(value).padStart(2, '0');
+      const updateCountdown = () => {
+        const remaining = Math.max(launchDeadline - Date.now(), 0);
+        const totalSeconds = Math.floor(remaining / 1000);
+        const hours = Math.floor(totalSeconds / 3600);
+        const minutes = Math.floor((totalSeconds % 3600) / 60);
+        const seconds = totalSeconds % 60;
+
+        countdownHours.textContent = pad(hours);
+        countdownMinutes.textContent = pad(minutes);
+        countdownSeconds.textContent = pad(seconds);
+
+        if (remaining === 0) {
+          countdownLabel.textContent = copy[currentLanguage].countdownDone;
+        }
+      };
+
+      updateCountdown();
+      window.setInterval(updateCountdown, 1000);
+    })();
+  </script>
+</body>
+</html>
