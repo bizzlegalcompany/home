@@ -1,0 +1,245 @@
+[
+  {
+    "slug": "lua-chon-loai-hinh-doanh-nghiep",
+    "title": "Nên thành lập công ty TNHH hay công ty cổ phần?",
+    "category": "Thành lập doanh nghiệp",
+    "date": "2026-08-24",
+    "updated": "24/08/2026",
+    "readTime": "6 phút đọc",
+    "description": "So sánh công ty TNHH và công ty cổ phần theo cơ cấu sở hữu, quản trị, chuyển nhượng vốn và nhu cầu huy động vốn.",
+    "intro": "Loại hình doanh nghiệp ảnh hưởng trực tiếp đến quyền quyết định, trách nhiệm của chủ sở hữu, khả năng tiếp nhận nhà đầu tư và cách doanh nghiệp vận hành về sau. Vì vậy, lựa chọn phù hợp nên dựa trên kế hoạch kinh doanh thay vì chỉ chọn mô hình có hồ sơ đơn giản hơn.",
+    "sections": [
+      {"heading":"Công ty TNHH phù hợp khi nào?","paragraphs":["Công ty TNHH một thành viên phù hợp với cá nhân hoặc tổ chức muốn sở hữu toàn bộ vốn và duy trì cơ chế quyết định tập trung. Công ty TNHH hai thành viên trở lên phù hợp với nhóm sáng lập có số lượng thành viên giới hạn và muốn kiểm soát việc chuyển nhượng phần vốn góp.","Đặc điểm đáng lưu ý của công ty TNHH là phần vốn góp không được thể hiện dưới dạng cổ phần. Khi một thành viên muốn chuyển nhượng, trình tự và quyền ưu tiên của các thành viên còn lại cần được xem xét theo Luật Doanh nghiệp và điều lệ công ty."]},
+      {"heading":"Công ty cổ phần phù hợp khi nào?","paragraphs":["Công ty cổ phần phải có ít nhất ba cổ đông và không giới hạn số lượng tối đa. Mô hình này phù hợp hơn với doanh nghiệp có kế hoạch huy động vốn từ nhiều nhà đầu tư, xây dựng chương trình sở hữu cho nhân sự hoặc chuẩn bị cho các vòng gọi vốn tiếp theo.","Đổi lại, cơ cấu quản trị và thủ tục nội bộ thường nhiều lớp hơn. Doanh nghiệp cần tổ chức tốt sổ đăng ký cổ đông, thẩm quyền của đại hội đồng cổ đông, hội đồng quản trị và quy trình thông qua quyết định."]},
+      {"heading":"Ba tiêu chí nên quyết định trước","bullets":["Số lượng người góp vốn hiện tại và dự kiến trong 2–3 năm tới.","Mức độ cần kiểm soát việc chuyển nhượng vốn và thay đổi thành viên.","Kế hoạch huy động vốn, cấp cổ phần cho nhân sự hoặc tiếp nhận nhà đầu tư."],"paragraphs":["Nếu doanh nghiệp mới có một hoặc một nhóm nhỏ người sáng lập và chưa có nhu cầu huy động vốn rộng, công ty TNHH thường thuận tiện hơn trong quản trị. Nếu mô hình cần nhiều vòng đầu tư và cơ chế sở hữu linh hoạt, công ty cổ phần có thể phù hợp hơn."]},
+      {"heading":"Không nên chỉ nhìn vào thủ tục thành lập","paragraphs":["Chi phí thay đổi loại hình, điều chỉnh cơ cấu vốn, rà soát hợp đồng và cập nhật giấy phép sau này có thể lớn hơn nhiều so với chi phí đăng ký ban đầu. Trước khi nộp hồ sơ, doanh nghiệp nên thống nhất quyền biểu quyết, nguyên tắc góp thêm vốn, xử lý khi một thành viên rút khỏi dự án và thẩm quyền của người đại diện theo pháp luật."]}
+    ],
+    "takeaway":"Loại hình phù hợp là loại hình hỗ trợ được kế hoạch sở hữu và phát triển vốn của doanh nghiệp trong vài năm tới, không chỉ đáp ứng nhu cầu đăng ký trước mắt.",
+    "sources":[{"title":"Văn bản hợp nhất số 67/VBHN-VPQH về Luật Doanh nghiệp","url":"https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-67-vbhn-vpqh-45865.htm"},{"title":"Nghị định 168/2025/NĐ-CP về đăng ký doanh nghiệp","url":"https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2025-nd-cp-45354/57297.htm"}]
+  },
+  {
+    "slug": "ho-so-thanh-lap-doanh-nghiep-can-chuan-bi-gi",
+    "title": "Hồ sơ thành lập doanh nghiệp cần chuẩn bị những gì?",
+    "category": "Thành lập doanh nghiệp",
+    "date": "2026-08-22",
+    "updated": "22/08/2026",
+    "readTime": "6 phút đọc",
+    "description": "Danh mục thông tin và giấy tờ cần chuẩn bị trước khi đăng ký thành lập doanh nghiệp theo quy định hiện hành.",
+    "intro": "Một bộ hồ sơ đăng ký doanh nghiệp không chỉ gồm biểu mẫu. Phần cần chuẩn bị kỹ nhất là các quyết định nền tảng về tên, trụ sở, ngành nghề, vốn, thành viên và người đại diện theo pháp luật. Khi các thông tin này chưa thống nhất, hồ sơ dễ phải sửa hoặc phát sinh thay đổi ngay sau khi thành lập.",
+    "sections": [
+      {"heading":"Nhóm thông tin về doanh nghiệp","bullets":["Tên doanh nghiệp bằng tiếng Việt, tên nước ngoài và tên viết tắt nếu có.","Địa chỉ trụ sở chính có căn cứ sử dụng hợp lệ.","Ngành, nghề dự kiến kinh doanh và phạm vi hoạt động thực tế.","Vốn điều lệ, tỷ lệ góp vốn và loại tài sản góp vốn.","Người đại diện theo pháp luật, chức danh và phạm vi đại diện."],"paragraphs":["Tên cần được tra cứu để hạn chế trùng hoặc gây nhầm lẫn. Ngành nghề nên phản ánh đúng hoạt động dự kiến; một số ngành chỉ được triển khai sau khi đáp ứng điều kiện hoặc được cấp giấy phép chuyên ngành."]},
+      {"heading":"Nhóm thông tin về chủ sở hữu, thành viên hoặc cổ đông","paragraphs":["Cá nhân thường cần thông tin định danh còn hiệu lực. Tổ chức góp vốn cần tài liệu pháp lý, quyết định góp vốn và thông tin người đại diện theo ủy quyền. Tài liệu được cấp ở nước ngoài có thể phải hợp pháp hóa lãnh sự, dịch và chứng thực theo trường hợp áp dụng.","Quy định đăng ký doanh nghiệp hiện hành còn yêu cầu doanh nghiệp kê khai, lưu giữ hoặc cập nhật thông tin liên quan đến chủ sở hữu hưởng lợi theo phạm vi pháp luật quy định. Đây là phần cần được rà soát từ cơ cấu sở hữu thực tế, không nên chỉ dựa vào tên người đứng trên hồ sơ."]},
+      {"heading":"Nhóm văn bản đăng ký","bullets":["Giấy đề nghị đăng ký doanh nghiệp theo mẫu hiện hành.","Điều lệ công ty.","Danh sách thành viên, cổ đông sáng lập hoặc người đại diện theo ủy quyền khi loại hình yêu cầu.","Bản sao giấy tờ pháp lý và văn bản ủy quyền cho người nộp hồ sơ nếu có."],"paragraphs":["Biểu mẫu đăng ký được ban hành và cập nhật theo văn bản của cơ quan có thẩm quyền. Doanh nghiệp nên sử dụng đúng phiên bản tại thời điểm nộp thay vì dùng lại bộ mẫu được tải từ nguồn cũ."]},
+      {"heading":"Kiểm tra trước khi nộp","paragraphs":["Cần đối chiếu thống nhất họ tên, số định danh, địa chỉ, tỷ lệ vốn và chức danh trên toàn bộ tài liệu. Nếu hồ sơ được ký điện tử hoặc nộp trực tuyến, tài khoản, chữ ký và tệp đính kèm cũng cần đúng định dạng và đúng chủ thể ký.","Sau khi được cấp đăng ký doanh nghiệp, doanh nghiệp vẫn phải thực hiện các công việc về góp vốn, thuế, hóa đơn, lao động, giấy phép chuyên ngành và quản trị nội bộ theo hoạt động thực tế."]}
+    ],
+    "takeaway":"Chuẩn bị hồ sơ tốt bắt đầu từ việc chốt đúng thông tin kinh doanh và cơ cấu sở hữu, sau đó mới hoàn thiện biểu mẫu pháp lý.",
+    "sources":[{"title":"Nghị định 168/2025/NĐ-CP về đăng ký doanh nghiệp","url":"https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2025-nd-cp-45354/57297.htm"},{"title":"Nghị định 296/2026/NĐ-CP sửa đổi quy định đăng ký doanh nghiệp","url":"https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-296-2026-nd-cp-470177/67429.htm"},{"title":"Thông tư 68/2025/TT-BTC về biểu mẫu đăng ký doanh nghiệp","url":"https://congbao.chinhphu.vn/van-ban/thong-tu-so-68-2025-tt-btc-45617/57818.htm"}]
+  },
+  {
+    "slug": "von-dieu-le-khi-thanh-lap-doanh-nghiep",
+    "title": "Vốn điều lệ khi thành lập doanh nghiệp: nên đăng ký bao nhiêu?",
+    "category": "Thành lập doanh nghiệp",
+    "date": "2026-08-20",
+    "updated": "20/08/2026",
+    "readTime": "5 phút đọc",
+    "description": "Cách xác định vốn điều lệ phù hợp với quy mô, nghĩa vụ góp vốn và yêu cầu vốn pháp định của một số ngành nghề.",
+    "intro": "Vốn điều lệ không nên được chọn theo một con số mang tính hình thức. Đây là tổng giá trị tài sản mà chủ sở hữu, thành viên hoặc cổ đông cam kết góp vào doanh nghiệp và là một dữ liệu quan trọng trong cơ cấu trách nhiệm, năng lực tài chính và kế hoạch vận hành.",
+    "sections": [
+      {"heading":"Không phải ngành nào cũng có mức vốn tối thiểu","paragraphs":["Đối với nhiều hoạt động kinh doanh thông thường, pháp luật không ấn định một mức vốn điều lệ tối thiểu chung. Tuy nhiên, ngành nghề có điều kiện có thể yêu cầu vốn pháp định, ký quỹ hoặc năng lực tài chính ở một mức nhất định. Vì vậy, cần rà soát ngành nghề trước khi chốt vốn.","Việc đăng ký vốn quá thấp có thể không phù hợp với quy mô hợp đồng và chi phí vận hành. Ngược lại, đăng ký quá cao tạo ra nghĩa vụ góp vốn lớn và có thể làm tăng mức lệ phí môn bài hoặc yêu cầu giải trình trong một số giao dịch."]},
+      {"heading":"Căn cứ để xác định mức vốn","bullets":["Chi phí dự kiến cho 6–12 tháng đầu hoạt động.","Giá trị hợp đồng, tài sản và nghĩa vụ doanh nghiệp dự kiến thực hiện.","Số tiền hoặc tài sản mà các thành viên thực tế có thể góp đúng hạn.","Điều kiện vốn, ký quỹ hoặc năng lực tài chính của ngành nghề.","Kế hoạch vay vốn, tiếp nhận nhà đầu tư và phân chia quyền biểu quyết."],"paragraphs":["Vốn điều lệ nên đủ để phản ánh hợp lý năng lực ban đầu nhưng vẫn nằm trong khả năng góp vốn thực tế của các chủ sở hữu."]},
+      {"heading":"Nghĩa vụ góp vốn cần được theo dõi","paragraphs":["Thành viên và cổ đông phải góp đủ, đúng loại tài sản và đúng thời hạn theo quy định. Trường hợp không góp đủ, doanh nghiệp có thể phải điều chỉnh vốn, tỷ lệ sở hữu và quyền của các thành viên; đồng thời phát sinh trách nhiệm đối với nghĩa vụ tài chính được xác lập trong thời gian liên quan.","Doanh nghiệp nên lưu chứng từ góp vốn, biên bản bàn giao tài sản, định giá tài sản và cập nhật sổ đăng ký thành viên hoặc cổ đông. Góp vốn bằng tài sản khác tiền mặt cần kiểm tra quyền sở hữu và thủ tục chuyển quyền."]},
+      {"heading":"Khi nào nên điều chỉnh vốn?","paragraphs":["Doanh nghiệp có thể xem xét tăng vốn khi mở rộng hoạt động, tiếp nhận thành viên hoặc nhà đầu tư mới. Giảm vốn chỉ được thực hiện trong các trường hợp và điều kiện luật định. Mọi thay đổi nên được đánh giá đồng thời về tỷ lệ sở hữu, quyền biểu quyết, thuế và các giấy phép liên quan."]}
+    ],
+    "takeaway":"Mức vốn tốt là mức doanh nghiệp có thể góp đủ, phù hợp với quy mô hoạt động và đáp ứng điều kiện ngành nghề — không phải con số càng lớn càng tốt.",
+    "sources":[{"title":"Văn bản hợp nhất số 67/VBHN-VPQH về Luật Doanh nghiệp","url":"https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-67-vbhn-vpqh-45865.htm"},{"title":"Cổng thông tin quốc gia về đăng ký doanh nghiệp","url":"https://dangkykinhdoanh.gov.vn/vn/pages/trangchu.aspx"}]
+  },
+  {
+    "slug": "dia-chi-tru-so-doanh-nghiep-can-luu-y-gi",
+    "title": "Địa chỉ trụ sở doanh nghiệp: những điểm cần kiểm tra trước khi đăng ký",
+    "category": "Thành lập doanh nghiệp",
+    "date": "2026-08-18",
+    "updated": "18/08/2026",
+    "readTime": "5 phút đọc",
+    "description": "Các lưu ý về địa chỉ, quyền sử dụng, căn hộ chung cư, địa bàn hành chính và hoạt động thực tế tại trụ sở.",
+    "intro": "Trụ sở chính là địa chỉ liên lạc pháp lý của doanh nghiệp, được ghi trên Giấy chứng nhận đăng ký doanh nghiệp và sử dụng trong hồ sơ thuế, hóa đơn, hợp đồng và nhiều giấy phép khác. Chọn địa chỉ không phù hợp có thể khiến hồ sơ bị yêu cầu sửa hoặc doanh nghiệp phải thay đổi đồng loạt sau khi hoạt động.",
+    "sections": [
+      {"heading":"Địa chỉ phải xác định được trên địa giới hành chính","paragraphs":["Thông tin trụ sở cần thể hiện đầy đủ số nhà, đường, khu vực, đơn vị hành chính và tỉnh hoặc thành phố theo dữ liệu hiện hành. Sau các đợt sắp xếp địa giới, doanh nghiệp nên dùng đúng tên đơn vị hành chính được cơ quan nhà nước công bố.","Số điện thoại, email và thông tin liên hệ nên được duy trì để nhận thông báo từ cơ quan quản lý và đối tác."]},
+      {"heading":"Cần có căn cứ sử dụng hợp lệ","paragraphs":["Doanh nghiệp nên kiểm tra giấy tờ sở hữu, hợp đồng thuê hoặc văn bản cho mượn địa điểm. Hợp đồng cần thể hiện đúng chủ thể, diện tích, mục đích sử dụng và thời hạn. Với ngành nghề cần giấy phép, mặt bằng có thể phải đáp ứng thêm điều kiện về diện tích, phòng cháy, môi trường hoặc khoảng cách."]},
+      {"heading":"Có được đặt trụ sở tại căn hộ chung cư?","paragraphs":["Nhà ở, căn hộ hoặc phần diện tích có chức năng để ở không được sử dụng cho mục đích không phù hợp với công năng. Với tòa nhà hỗn hợp, chỉ phần diện tích được phê duyệt cho thương mại, văn phòng hoặc chức năng kinh doanh phù hợp mới nên được xem xét làm trụ sở.","Không nên chỉ dựa vào việc ban quản lý cho phép nhận thư. Doanh nghiệp cần kiểm tra hồ sơ pháp lý về công năng của phần diện tích dự kiến sử dụng."]},
+      {"heading":"Ảnh hưởng khi thay đổi trụ sở","paragraphs":["Thay đổi địa chỉ có thể kéo theo cập nhật đăng ký doanh nghiệp, thông tin thuế, hóa đơn, tài khoản, hợp đồng, biển hiệu và giấy phép chuyên ngành. Nếu chuyển khác tỉnh, thành phố, cần rà soát thêm thủ tục với cơ quan thuế và hồ sơ lao động, bảo hiểm hoặc đầu tư.","Vì vậy, nên đánh giá khả năng sử dụng ổn định của địa điểm trong ít nhất giai đoạn đầu thay vì chọn địa chỉ chỉ để hoàn tất đăng ký."]}
+    ],
+    "takeaway":"Một địa chỉ phù hợp phải đồng thời đúng thông tin hành chính, có quyền sử dụng hợp lệ và phù hợp với công năng cũng như điều kiện ngành nghề.",
+    "sources":[{"title":"Văn bản hợp nhất số 67/VBHN-VPQH về Luật Doanh nghiệp","url":"https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-67-vbhn-vpqh-45865.htm"},{"title":"Luật Nhà ở số 27/2023/QH15","url":"https://congbao.chinhphu.vn/van-ban/luat-so-27-2023-qh15-40856.htm"}]
+  },
+  {
+    "slug": "viec-can-lam-sau-khi-thanh-lap-doanh-nghiep",
+    "title": "Các công việc cần thực hiện sau khi thành lập doanh nghiệp",
+    "category": "Vận hành doanh nghiệp",
+    "date": "2026-08-16",
+    "updated": "16/08/2026",
+    "readTime": "7 phút đọc",
+    "description": "Checklist về góp vốn, thuế, hóa đơn, tài khoản, lao động, giấy phép và hồ sơ quản trị sau khi có đăng ký doanh nghiệp.",
+    "intro": "Giấy chứng nhận đăng ký doanh nghiệp xác lập tư cách pháp lý nhưng chưa đồng nghĩa doanh nghiệp đã hoàn tất toàn bộ điều kiện để vận hành. Các đầu việc sau thành lập cần được sắp xếp theo hoạt động thực tế, thời điểm phát sinh giao dịch và yêu cầu của ngành nghề.",
+    "sections": [
+      {"heading":"Hoàn tất hồ sơ nội bộ và góp vốn","paragraphs":["Doanh nghiệp cần tổ chức việc góp vốn đúng cam kết, lưu chứng từ và cập nhật sổ thành viên hoặc cổ đông. Điều lệ, quyết định bổ nhiệm, quy chế tài chính, phân quyền ký và hồ sơ chủ sở hữu hưởng lợi cần được lưu giữ thống nhất.","Biển hiệu tại trụ sở nên thể hiện tên, mã số doanh nghiệp và địa chỉ theo quy định liên quan. Đây cũng là điểm thường được kiểm tra khi doanh nghiệp thực hiện một số thủ tục thuế hoặc giấy phép."]},
+      {"heading":"Thiết lập công việc về thuế và kế toán","bullets":["Xác định phương pháp và kỳ kê khai phù hợp với tình trạng doanh nghiệp.","Bố trí người phụ trách kế toán hoặc đơn vị dịch vụ đáp ứng điều kiện.","Theo dõi lệ phí môn bài, nghĩa vụ khai thuế và thời điểm phát sinh hóa đơn.","Tổ chức hệ thống chứng từ, tài khoản kế toán và lưu trữ dữ liệu."],"paragraphs":["Từ ngày 01/01/2026, chế độ kế toán doanh nghiệp được hướng dẫn tại Thông tư 99/2025/TT-BTC. Doanh nghiệp nên thống nhất quy trình chứng từ từ đầu để hạn chế việc bổ sung hoặc điều chỉnh về sau."]},
+      {"heading":"Chữ ký số, hóa đơn và tài khoản giao dịch","paragraphs":["Chữ ký số thường được sử dụng cho khai thuế, bảo hiểm, hóa đơn điện tử và các giao dịch hành chính. Việc đăng ký sử dụng hóa đơn cần dựa trên mô hình bán hàng và thời điểm doanh nghiệp bắt đầu cung cấp hàng hóa, dịch vụ.","Tài khoản ngân hàng nên được mở và phân quyền giao dịch phù hợp. Với doanh nghiệp có vốn đầu tư nước ngoài, cần kiểm tra thêm yêu cầu về tài khoản vốn đầu tư và luồng chuyển tiền."]},
+      {"heading":"Lao động, bảo hiểm và dữ liệu cá nhân","paragraphs":["Khi tuyển dụng, doanh nghiệp cần chuẩn bị hợp đồng lao động, quy trình tiền lương, bảo hiểm và hồ sơ quản lý nhân sự. Việc thu thập dữ liệu nhân viên, khách hàng hoặc người dùng phải tuân thủ quy định về bảo vệ dữ liệu cá nhân có hiệu lực tại thời điểm xử lý."]},
+      {"heading":"Giấy phép chuyên ngành và điều kiện hoạt động","paragraphs":["Nếu ngành nghề thuộc nhóm đầu tư kinh doanh có điều kiện, doanh nghiệp chỉ nên triển khai khi đã đáp ứng đủ điều kiện hoặc có giấy phép, chứng nhận, người phụ trách chuyên môn và cơ sở vật chất theo quy định. Nội dung đăng ký ngành nghề trên giấy chứng nhận không thay thế giấy phép chuyên ngành."]}
+    ],
+    "takeaway":"Checklist sau thành lập nên được thiết kế theo ngày doanh nghiệp bắt đầu giao dịch, tuyển người và xuất hóa đơn, thay vì áp dụng một danh sách giống nhau cho mọi công ty.",
+    "sources":[{"title":"Cổng thông tin quốc gia về đăng ký doanh nghiệp","url":"https://dangkykinhdoanh.gov.vn/vn/pages/trangchu.aspx"},{"title":"Thông tư 99/2025/TT-BTC về chế độ kế toán doanh nghiệp","url":"https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529/59634.htm"},{"title":"Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15","url":"https://congbao.chinhphu.vn/van-ban/luat-so-91-2025-qh15-45578.htm"}]
+  },
+  {
+    "slug": "nganh-nghe-dau-tu-kinh-doanh-co-dieu-kien",
+    "title": "Ngành nghề đầu tư kinh doanh có điều kiện: doanh nghiệp cần kiểm tra gì?",
+    "category": "Giấy phép & điều kiện",
+    "date": "2026-08-14",
+    "updated": "14/08/2026",
+    "readTime": "6 phút đọc",
+    "description": "Cách phân biệt đăng ký ngành nghề với điều kiện hoạt động, giấy phép chuyên ngành và điều kiện tiếp cận thị trường.",
+    "intro": "Doanh nghiệp có thể đăng ký nhiều ngành nghề, nhưng việc được ghi nhận ngành nghề không đồng nghĩa được phép triển khai ngay mọi hoạt động. Với ngành đầu tư kinh doanh có điều kiện, doanh nghiệp phải duy trì điều kiện tương ứng trong suốt quá trình hoạt động.",
+    "sections": [
+      {"heading":"Ba lớp cần kiểm tra","bullets":["Ngành nghề có thuộc danh mục đầu tư kinh doanh có điều kiện hay không.","Điều kiện áp dụng cho doanh nghiệp, người quản lý, nhân sự chuyên môn, cơ sở vật chất hoặc vốn.","Giấy phép, giấy chứng nhận, chấp thuận hoặc thủ tục chuyên ngành cần có trước khi hoạt động."],"paragraphs":["Với nhà đầu tư nước ngoài, cần kiểm tra thêm điều kiện tiếp cận thị trường, tỷ lệ sở hữu, hình thức đầu tư, đối tác Việt Nam và phạm vi dịch vụ theo cam kết quốc tế và pháp luật chuyên ngành."]},
+      {"heading":"Đăng ký ngành nghề không thay thế giấy phép","paragraphs":["Cơ quan đăng ký kinh doanh ghi nhận ngành nghề theo hồ sơ doanh nghiệp, trong khi cơ quan quản lý chuyên ngành đánh giá điều kiện hoạt động. Ví dụ, một hoạt động có thể yêu cầu chứng chỉ của người phụ trách, giấy phép cơ sở, chấp thuận an toàn hoặc điều kiện về vốn trước khi cung cấp dịch vụ.","Doanh nghiệp nên xác định rõ thời điểm phải có giấy phép: trước khi thành lập, trước khi ký hợp đồng, trước khi khai trương hay trong suốt thời gian hoạt động."]},
+      {"heading":"Hồ sơ chứng minh điều kiện","paragraphs":["Tùy ngành, tài liệu có thể gồm hồ sơ địa điểm, hợp đồng thuê, bản vẽ, chứng nhận phòng cháy, tài liệu môi trường, bằng cấp hoặc chứng chỉ hành nghề, xác nhận kinh nghiệm, chứng từ vốn và quy trình vận hành.","Các tài liệu này cần thống nhất với thông tin trên đăng ký doanh nghiệp và đăng ký đầu tư. Nếu thay đổi địa chỉ, người phụ trách hoặc phạm vi hoạt động, giấy phép chuyên ngành có thể phải điều chỉnh hoặc cấp lại."]},
+      {"heading":"Cách hạn chế phát sinh","paragraphs":["Trước khi ký thuê mặt bằng hoặc công bố ngày khai trương, doanh nghiệp nên lập ma trận điều kiện theo từng hoạt động. Ma trận cần chỉ rõ căn cứ, cơ quan xử lý, tài liệu đầu vào, thời gian dự kiến và điều kiện phải duy trì sau khi được cấp phép."]}
+    ],
+    "takeaway":"Điểm quan trọng không phải chỉ là đăng ký đúng mã ngành, mà là xác định đầy đủ điều kiện và thời điểm doanh nghiệp được phép triển khai hoạt động thực tế.",
+    "sources":[{"title":"Luật Đầu tư số 143/2025/QH15","url":"https://congbao.chinhphu.vn/van-ban/luat-so-143-2025-qh15-468703.htm"},{"title":"Nghị định 96/2026/NĐ-CP hướng dẫn Luật Đầu tư","url":"https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-96-2026-nd-cp-469246.htm"}]
+  },
+  {
+    "slug": "nha-dau-tu-nuoc-ngoai-thanh-lap-cong-ty-tai-viet-nam",
+    "title": "Nhà đầu tư nước ngoài thành lập công ty tại Việt Nam: lộ trình cần biết",
+    "category": "Đầu tư nước ngoài",
+    "date": "2026-08-12",
+    "updated": "12/08/2026",
+    "readTime": "8 phút đọc",
+    "description": "Lộ trình từ kiểm tra điều kiện tiếp cận thị trường, chủ trương đầu tư, IRC đến đăng ký doanh nghiệp và góp vốn.",
+    "intro": "Nhà đầu tư nước ngoài có thể tiếp cận thị trường Việt Nam theo nhiều hình thức. Với phương án thành lập tổ chức kinh tế mới, trình tự phổ biến thường liên quan đến hồ sơ dự án đầu tư và đăng ký doanh nghiệp. Tuy nhiên, lộ trình cụ thể phụ thuộc ngành nghề, địa điểm, quy mô, tỷ lệ sở hữu và quốc tịch của nhà đầu tư.",
+    "sections": [
+      {"heading":"Bước 1: kiểm tra điều kiện tiếp cận thị trường","paragraphs":["Cần xác định hoạt động dự kiến có thuộc ngành hạn chế tiếp cận thị trường đối với nhà đầu tư nước ngoài hay không. Nếu có, phải rà soát tỷ lệ sở hữu, hình thức đầu tư, phạm vi hoạt động, điều kiện về đối tác Việt Nam và các yêu cầu khác.","Việc mô tả mục tiêu dự án cần nhất quán với mã ngành, sản phẩm hoặc dịch vụ thực tế. Mô tả quá rộng hoặc không đúng cấu trúc pháp lý dễ dẫn đến yêu cầu giải trình."]},
+      {"heading":"Bước 2: đánh giá dự án có cần chấp thuận chủ trương đầu tư","paragraphs":["Không phải mọi dự án đều phải xin chấp thuận chủ trương đầu tư. Nghĩa vụ này phụ thuộc tính chất, quy mô, địa điểm, đất đai, công nghệ và thẩm quyền theo Luật Đầu tư. Nếu thuộc diện phải chấp thuận, cần hoàn tất bước này trước hoặc đồng thời theo trình tự luật định."]},
+      {"heading":"Bước 3: chuẩn bị hồ sơ đăng ký đầu tư","bullets":["Thông tin và năng lực pháp lý, tài chính của nhà đầu tư.","Mục tiêu, quy mô, vốn, địa điểm và thời hạn của dự án.","Tiến độ góp vốn, huy động vốn và triển khai hoạt động.","Đề xuất sử dụng đất hoặc tài liệu về quyền sử dụng địa điểm.","Giải trình điều kiện tiếp cận thị trường và các nội dung chuyên ngành khi cần."],"paragraphs":["Tài liệu nước ngoài thường cần được xử lý về hợp pháp hóa lãnh sự, dịch và chứng thực. Thời gian chuẩn bị tài liệu này nên được tính vào kế hoạch dự án."]},
+      {"heading":"Bước 4: đăng ký doanh nghiệp và triển khai sau cấp phép","paragraphs":["Sau khi được cấp Giấy chứng nhận đăng ký đầu tư trong trường hợp áp dụng, nhà đầu tư thực hiện hồ sơ thành lập doanh nghiệp. Thông tin về tên, địa chỉ, ngành nghề, vốn và người đại diện cần thống nhất với hồ sơ đầu tư.","Doanh nghiệp sau đó cần mở đúng loại tài khoản vốn, góp vốn theo tiến độ, thực hiện công việc thuế, kế toán, lao động, báo cáo đầu tư và xin giấy phép chuyên ngành trước khi hoạt động nếu có."]},
+      {"heading":"Những điểm thường làm chậm tiến độ","paragraphs":["Tài liệu chứng minh năng lực tài chính chưa phù hợp; địa điểm không đáp ứng điều kiện; mục tiêu dự án chưa rõ; thông tin giữa hồ sơ đầu tư và doanh nghiệp không thống nhất; hoặc chưa tính đủ thời gian hợp pháp hóa tài liệu. Rà soát các điểm này trước khi nộp thường hiệu quả hơn xử lý từng yêu cầu bổ sung sau đó."]}
+    ],
+    "takeaway":"Lộ trình đầu tư nên được thiết kế từ hoạt động thực tế và điều kiện tiếp cận thị trường, sau đó mới phân thành hồ sơ IRC, đăng ký doanh nghiệp và giấy phép chuyên ngành.",
+    "sources":[{"title":"Luật Đầu tư số 143/2025/QH15, hiệu lực 01/03/2026","url":"https://congbao.chinhphu.vn/van-ban/luat-so-143-2025-qh15-468703.htm"},{"title":"Nghị định 96/2026/NĐ-CP hướng dẫn Luật Đầu tư","url":"https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-96-2026-nd-cp-469246.htm"}]
+  },
+  {
+    "slug": "dieu-chinh-giay-chung-nhan-dang-ky-dau-tu",
+    "title": "Khi nào cần điều chỉnh Giấy chứng nhận đăng ký đầu tư?",
+    "category": "Đầu tư nước ngoài",
+    "date": "2026-08-10",
+    "updated": "10/08/2026",
+    "readTime": "6 phút đọc",
+    "description": "Các thay đổi của dự án có thể dẫn đến thủ tục điều chỉnh IRC và cách chuẩn bị hồ sơ, tiến độ thực hiện.",
+    "intro": "Trong quá trình triển khai, dự án có thể thay đổi tên, nhà đầu tư, địa điểm, vốn, mục tiêu, quy mô hoặc tiến độ. Doanh nghiệp cần phân biệt thay đổi nào phải điều chỉnh Giấy chứng nhận đăng ký đầu tư, thay đổi nào phải xin chấp thuận điều chỉnh chủ trương và thay đổi nào chỉ cần thực hiện nghĩa vụ báo cáo.",
+    "sections": [
+      {"heading":"Những nhóm thay đổi thường cần rà soát","bullets":["Tên dự án hoặc thông tin của nhà đầu tư.","Địa điểm, diện tích đất hoặc phạm vi triển khai.","Mục tiêu, quy mô, công suất hoặc sản phẩm dịch vụ.","Tổng vốn đầu tư, vốn góp và tiến độ góp vốn.","Thời hạn hoạt động hoặc tiến độ thực hiện dự án.","Ưu đãi, điều kiện đầu tư và các nghĩa vụ liên quan."],"paragraphs":["Không nên đợi đến kỳ báo cáo mới xử lý. Khi quyết định kinh doanh làm thay đổi nội dung đã đăng ký, doanh nghiệp cần kiểm tra thủ tục trước khi triển khai trên thực tế."]},
+      {"heading":"Quan hệ giữa IRC và đăng ký doanh nghiệp","paragraphs":["Một thay đổi có thể đồng thời ảnh hưởng đến hồ sơ đầu tư và đăng ký doanh nghiệp. Ví dụ, tăng phần vốn góp của nhà đầu tư có thể kéo theo điều chỉnh tổng vốn đầu tư, vốn điều lệ hoặc tỷ lệ sở hữu. Thứ tự thực hiện cần được xác định để thông tin trên hai hệ thống không mâu thuẫn.","Nếu thay đổi liên quan đến ngành nghề có điều kiện hoặc giấy phép chuyên ngành, doanh nghiệp còn phải xem xét việc điều chỉnh giấy phép tương ứng."]},
+      {"heading":"Hồ sơ cần phản ánh lý do và khả năng thực hiện","paragraphs":["Ngoài văn bản đề nghị điều chỉnh, doanh nghiệp thường cần quyết định của nhà đầu tư hoặc tổ chức kinh tế, báo cáo tình hình thực hiện dự án, tài liệu chứng minh nội dung thay đổi và giải trình về năng lực tài chính, địa điểm hoặc điều kiện thị trường khi có liên quan.","Với dự án chậm tiến độ, cần rà soát nguyên nhân, nghĩa vụ báo cáo và khả năng được điều chỉnh. Việc điều chỉnh trên giấy không thay thế trách nhiệm xử lý các vi phạm hoặc nghĩa vụ đã phát sinh."]},
+      {"heading":"Chuẩn bị trước khi nộp","paragraphs":["Nên lập bảng đối chiếu giữa nội dung IRC hiện tại, tình trạng thực tế và nội dung dự kiến sau điều chỉnh. Đồng thời kiểm tra báo cáo đầu tư, tiến độ góp vốn, hợp đồng địa điểm, báo cáo tài chính và quyết định nội bộ để bảo đảm thống nhất."]}
+    ],
+    "takeaway":"Điều chỉnh IRC cần được xem như một dự án phối hợp giữa hồ sơ đầu tư, đăng ký doanh nghiệp, ngoại hối, thuế và giấy phép — không phải một biểu mẫu độc lập.",
+    "sources":[{"title":"Luật Đầu tư số 143/2025/QH15","url":"https://congbao.chinhphu.vn/van-ban/luat-so-143-2025-qh15-468703.htm"},{"title":"Nghị định 96/2026/NĐ-CP hướng dẫn Luật Đầu tư","url":"https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-96-2026-nd-cp-469246.htm"}]
+  },
+  {
+    "slug": "thay-doi-noi-dung-dang-ky-doanh-nghiep",
+    "title": "Thay đổi nội dung đăng ký doanh nghiệp: doanh nghiệp cần làm gì?",
+    "category": "Vận hành doanh nghiệp",
+    "date": "2026-08-08",
+    "updated": "08/08/2026",
+    "readTime": "6 phút đọc",
+    "description": "Các trường hợp thay đổi tên, địa chỉ, vốn, ngành nghề, thành viên và người đại diện theo pháp luật.",
+    "intro": "Khi thông tin pháp lý hoặc cơ cấu doanh nghiệp thay đổi, thủ tục không chỉ dừng ở việc cập nhật Giấy chứng nhận đăng ký doanh nghiệp. Doanh nghiệp còn phải rà soát điều lệ, hồ sơ thuế, hóa đơn, hợp đồng, tài khoản và giấy phép chuyên ngành để bảo đảm thông tin được sử dụng nhất quán.",
+    "sections": [
+      {"heading":"Các thay đổi thường gặp","bullets":["Tên doanh nghiệp, tên viết tắt hoặc tên nước ngoài.","Địa chỉ trụ sở chính, chi nhánh hoặc địa điểm kinh doanh.","Ngành nghề kinh doanh.","Vốn điều lệ và tỷ lệ phần vốn góp.","Thành viên, cổ đông thuộc diện đăng ký hoặc chủ sở hữu.","Người đại diện theo pháp luật và chức danh."],"paragraphs":["Mỗi thay đổi có thành phần hồ sơ và yêu cầu phê duyệt nội bộ khác nhau. Công ty cần xác định đúng cơ quan có thẩm quyền ra quyết định theo loại hình và điều lệ."]},
+      {"heading":"Phân biệt đăng ký thay đổi và thông báo thay đổi","paragraphs":["Một số nội dung làm thay đổi thông tin trên Giấy chứng nhận đăng ký doanh nghiệp; một số nội dung được thực hiện dưới hình thức thông báo với cơ quan đăng ký kinh doanh. Doanh nghiệp cần sử dụng đúng biểu mẫu và thực hiện trong thời hạn áp dụng cho từng trường hợp.","Từ năm 2025, quy định về thông tin chủ sở hữu hưởng lợi và cơ chế cập nhật dữ liệu doanh nghiệp đã được bổ sung. Khi thay đổi sở hữu hoặc kiểm soát, cần đánh giá thêm nghĩa vụ liên quan."]},
+      {"heading":"Các hệ thống cần cập nhật sau thay đổi","paragraphs":["Tùy nội dung, doanh nghiệp có thể phải cập nhật cơ quan thuế, hóa đơn điện tử, ngân hàng, bảo hiểm, chữ ký số, hợp đồng, website, biển hiệu và hồ sơ lao động. Với doanh nghiệp có vốn đầu tư nước ngoài, cần đối chiếu thêm IRC, tài khoản vốn và báo cáo đầu tư.","Nếu thay đổi địa chỉ hoặc người phụ trách chuyên môn, giấy phép con có thể phải điều chỉnh trước khi tiếp tục hoạt động."]},
+      {"heading":"Cách tổ chức hồ sơ","paragraphs":["Nên chuẩn bị một bảng danh mục gồm quyết định nội bộ, hồ sơ đăng ký, hệ thống cần cập nhật, người phụ trách và thời hạn. Sau khi hoàn tất, lưu cả bản trước và bản sau thay đổi cùng tài liệu chứng minh việc đã cập nhật với từng cơ quan hoặc đối tác."]}
+    ],
+    "takeaway":"Một thay đổi pháp lý chỉ được xem là hoàn tất khi thông tin mới đã được cập nhật đồng bộ trên hồ sơ doanh nghiệp, hệ thống vận hành và giấy phép liên quan.",
+    "sources":[{"title":"Văn bản hợp nhất số 67/VBHN-VPQH về Luật Doanh nghiệp","url":"https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-67-vbhn-vpqh-45865.htm"},{"title":"Nghị định 168/2025/NĐ-CP về đăng ký doanh nghiệp","url":"https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2025-nd-cp-45354/57297.htm"},{"title":"Nghị định 296/2026/NĐ-CP","url":"https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-296-2026-nd-cp-470177/67429.htm"}]
+  },
+  {
+    "slug": "chuyen-nhuong-von-gop-co-phan-can-luu-y-gi",
+    "title": "Chuyển nhượng vốn góp, cổ phần: những vấn đề cần rà soát",
+    "category": "Vận hành doanh nghiệp",
+    "date": "2026-08-06",
+    "updated": "06/08/2026",
+    "readTime": "7 phút đọc",
+    "description": "Rà soát điều lệ, quyền ưu tiên, điều kiện đầu tư, thuế, thanh toán và thủ tục cập nhật sau chuyển nhượng vốn.",
+    "intro": "Chuyển nhượng vốn không chỉ là ký hợp đồng và thanh toán. Giao dịch có thể chịu giới hạn theo điều lệ, thỏa thuận cổ đông, điều kiện tiếp cận thị trường, quy định ngoại hối, thuế và thủ tục đăng ký. Trình tự sai có thể làm chậm việc ghi nhận người sở hữu mới hoặc ảnh hưởng hiệu lực của các bước tiếp theo.",
+    "sections": [
+      {"heading":"Kiểm tra quyền chuyển nhượng","paragraphs":["Cần xem loại hình doanh nghiệp, điều lệ, thỏa thuận giữa các thành viên hoặc cổ đông và tình trạng góp vốn. Đối với công ty TNHH, quyền ưu tiên mua của thành viên hiện hữu có thể phải được thực hiện trước khi chuyển cho người ngoài. Với công ty cổ phần, cần kiểm tra hạn chế áp dụng cho cổ đông sáng lập hoặc hạn chế hợp lệ trong điều lệ."]},
+      {"heading":"Rà soát bên nhận chuyển nhượng","paragraphs":["Nếu bên nhận là nhà đầu tư nước ngoài, giao dịch có thể phải thực hiện thủ tục đăng ký mua phần vốn góp trước khi thay đổi thành viên hoặc cổ đông, tùy ngành nghề, tỷ lệ sở hữu, đất đai và trường hợp luật định.","Bên mua cũng cần đánh giá nghĩa vụ, khoản nợ, hợp đồng và giấy phép của doanh nghiệp vì họ tiếp nhận quyền sở hữu trong một pháp nhân đang hoạt động, không chỉ tiếp nhận một con số vốn."]},
+      {"heading":"Hợp đồng, giá và phương thức thanh toán","paragraphs":["Hợp đồng nên quy định rõ đối tượng chuyển nhượng, giá, thời điểm chuyển quyền, điều kiện hoàn tất, nghĩa vụ thuế, xử lý vi phạm và tài liệu bàn giao. Phương thức thanh toán phải phù hợp quy định về thanh toán, thuế và ngoại hối; giao dịch có yếu tố nước ngoài cần đặc biệt chú ý tài khoản sử dụng."]},
+      {"heading":"Thuế và kê khai","paragraphs":["Thu nhập từ chuyển nhượng vốn hoặc chứng khoán có thể phát sinh nghĩa vụ thuế khác nhau tùy bên chuyển nhượng là cá nhân hay tổ chức, cư trú hay không cư trú, và đối tượng chuyển nhượng. Giá hợp đồng không phải là căn cứ duy nhất; hồ sơ cần phản ánh giao dịch thực tế và chứng từ thanh toán.","Doanh nghiệp nên xác định người có nghĩa vụ kê khai, thời điểm kê khai và hồ sơ chứng minh chi phí hoặc giá vốn trước khi thanh toán toàn bộ."]},
+      {"heading":"Cập nhật sau giao dịch","paragraphs":["Sau khi đáp ứng điều kiện hoàn tất, doanh nghiệp cần cập nhật sổ thành viên hoặc cổ đông, đăng ký thay đổi khi pháp luật yêu cầu, thông tin chủ sở hữu hưởng lợi, điều lệ, người đại diện và giấy phép liên quan. Nếu giao dịch làm thay đổi dự án đầu tư, IRC hoặc báo cáo đầu tư cũng cần được rà soát."]}
+    ],
+    "takeaway":"Giao dịch chuyển nhượng nên được thiết kế theo trình tự: điều kiện nội bộ, chấp thuận đầu tư nếu có, hợp đồng và thanh toán, thuế, rồi cập nhật hồ sơ doanh nghiệp.",
+    "sources":[{"title":"Văn bản hợp nhất số 67/VBHN-VPQH về Luật Doanh nghiệp","url":"https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-67-vbhn-vpqh-45865.htm"},{"title":"Luật Đầu tư số 143/2025/QH15","url":"https://congbao.chinhphu.vn/van-ban/luat-so-143-2025-qh15-468703.htm"},{"title":"Luật Thuế thu nhập doanh nghiệp số 67/2025/QH15","url":"https://congbao.chinhphu.vn/van-ban/luat-so-67-2025-qh15-45557.htm"}]
+  },
+  {
+    "slug": "thanh-lap-cong-ty-fdi-tai-viet-nam-2026",
+    "title": "Thành lập công ty FDI tại Việt Nam năm 2026: quy trình và hồ sơ cần chuẩn bị",
+    "category": "Đầu tư nước ngoài",
+    "date": "2026-08-24",
+    "updated": "24/08/2026",
+    "readTime": "9 phút đọc",
+    "description": "Hướng dẫn điều kiện tiếp cận thị trường, hồ sơ đầu tư, đăng ký doanh nghiệp và các thủ tục sau khi thành lập công ty FDI tại Việt Nam.",
+    "intro": "Thành lập công ty có vốn đầu tư nước ngoài không chỉ là đăng ký một pháp nhân mới. Nhà đầu tư cần đồng thời xử lý điều kiện tiếp cận thị trường, dự án đầu tư, cơ cấu sở hữu, địa điểm, vốn, quản lý ngoại hối và điều kiện hoạt động của từng ngành nghề.",
+    "sections": [
+      {"heading":"Hai phương án gia nhập thị trường","paragraphs":["Nhà đầu tư có thể thành lập tổ chức kinh tế mới gắn với dự án đầu tư tại Việt Nam hoặc góp vốn, mua cổ phần, phần vốn góp trong một doanh nghiệp Việt Nam đang hoạt động.","Thành lập pháp nhân mới giúp chủ động thiết kế cơ cấu và kiểm soát hồ sơ từ đầu. Mua vốn có thể tận dụng hệ thống sẵn có nhưng đòi hỏi thẩm định thuế, lao động, hợp đồng, giấy phép, tài sản và nghĩa vụ lịch sử của doanh nghiệp."]},
+      {"heading":"Những vấn đề phải kiểm tra trước khi lập hồ sơ","paragraphs":["Ngành nghề là điểm kiểm tra đầu tiên. Nhà đầu tư cần xác định giới hạn sở hữu, hình thức đầu tư, phạm vi hoạt động, đối tác Việt Nam hoặc điều kiện chuyên ngành nếu có.","Cơ cấu nhà đầu tư, mức vốn, tiến độ góp vốn và địa điểm dự án phải có cơ sở thực tế. Địa điểm cần phù hợp với mục đích sử dụng, quy hoạch và điều kiện riêng của hoạt động dự kiến."]},
+      {"heading":"Quy trình thành lập công ty FDI mới","paragraphs":["Trước hết, nhà đầu tư thống nhất loại hình doanh nghiệp, tỷ lệ sở hữu, người đại diện, ngành nghề, địa điểm, quy mô vốn và tiến độ dự án. Sau đó cần kiểm tra dự án có thuộc diện chấp thuận chủ trương đầu tư hay không.","Đối với trường hợp thuộc diện cấp Giấy chứng nhận đăng ký đầu tư, hồ sơ được chuẩn bị và nộp tại cơ quan đăng ký đầu tư. Sau bước đầu tư, nhà đầu tư đăng ký thành lập doanh nghiệp; thông tin giữa hai bộ hồ sơ phải thống nhất."]},
+      {"heading":"Hồ sơ nhà đầu tư nên chuẩn bị","paragraphs":["Nhà đầu tư cá nhân thường cần hộ chiếu còn hiệu lực, tài liệu chứng minh năng lực tài chính và thông tin về phương án đầu tư. Nhà đầu tư tổ chức thường cần giấy chứng nhận thành lập, điều lệ, báo cáo tài chính, quyết định đầu tư và tài liệu về người đại diện.","Tài liệu do nước ngoài cấp có thể phải được chứng nhận hoặc hợp pháp hóa lãnh sự, dịch sang tiếng Việt và chứng thực, trừ trường hợp được miễn theo quy định áp dụng."]},
+      {"heading":"Công việc sau khi được cấp phép","paragraphs":["Doanh nghiệp cần mở tài khoản phù hợp với quy định ngoại hối, góp vốn đúng tài khoản và tiến độ, thiết lập thuế – kế toán, chữ ký số, hóa đơn, hồ sơ lao động và chế độ báo cáo đầu tư.","Nếu ngành nghề có điều kiện, doanh nghiệp chỉ nên triển khai hoạt động sau khi có giấy phép hoặc đã đáp ứng đầy đủ điều kiện chuyên ngành."]},
+      {"heading":"Các nguyên nhân thường làm chậm hồ sơ","paragraphs":["Hồ sơ thường phát sinh bổ sung khi ngành nghề mô tả quá rộng, điều kiện tiếp cận thị trường chưa được chứng minh, địa điểm không phù hợp, vốn và tiến độ thiếu cơ sở hoặc thông tin trong tài liệu nước ngoài không thống nhất.","Một bản thông tin dự án thống nhất ngay từ đầu sẽ giúp xác định rõ quyết định cần chốt, tài liệu đầu vào, cơ quan xử lý và điều kiện chuyển sang bước tiếp theo."]}
+    ],
+    "takeaway":"Cấu trúc đầu tư, ngành nghề, vốn và địa điểm cần được xác định trước khi soạn hồ sơ; chất lượng của bước chuẩn bị quyết định phần lớn tiến độ thực tế.",
+    "sources":[{"title":"Luật Đầu tư số 143/2025/QH15","url":"https://vanban.chinhphu.vn/?classid=1&docid=216524&orggroupid=1&pageid=27160"},{"title":"Nghị định số 96/2026/NĐ-CP","url":"https://vanban.chinhphu.vn/?classid=1&docid=217407&pageid=27160"},{"title":"Nghị định số 168/2025/NĐ-CP về đăng ký doanh nghiệp","url":"https://vanban.chinhphu.vn/?docid=214334&pageid=27160"}] 
+  },
+  {
+    "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai",
+    "title": "Doanh nghiệp có vốn đầu tư nước ngoài tại Việt Nam: khái niệm, hình thức và nghĩa vụ quản lý",
+    "category": "Đầu tư nước ngoài",
+    "date": "2026-08-24",
+    "updated": "24/08/2026",
+    "readTime": "8 phút đọc",
+    "description": "Tổng quan cách hình thành, loại hình, điều kiện thị trường, vốn, tài khoản và nghĩa vụ của doanh nghiệp có vốn đầu tư nước ngoài.",
+    "intro": "Doanh nghiệp có vốn đầu tư nước ngoài không phải là một loại hình doanh nghiệp riêng. Doanh nghiệp vẫn được tổ chức theo pháp luật Việt Nam; yếu tố nước ngoài phát sinh từ tư cách và tỷ lệ sở hữu của nhà đầu tư.",
+    "sections": [
+      {"heading":"Doanh nghiệp có vốn đầu tư nước ngoài là gì?","paragraphs":["Tổ chức kinh tế có vốn đầu tư nước ngoài là tổ chức có nhà đầu tư nước ngoài là thành viên hoặc cổ đông. Nhà đầu tư có thể là cá nhân mang quốc tịch nước ngoài hoặc tổ chức thành lập theo pháp luật nước ngoài.","Không nên chỉ dựa vào ngưỡng sở hữu trên 50% để nhận diện mọi nghĩa vụ. Ngay khi có sự tham gia của nhà đầu tư nước ngoài, doanh nghiệp đã có những vấn đề riêng về đầu tư, thị trường và ngoại hối cần kiểm tra."]},
+      {"heading":"Ba cách hình thành phổ biến","paragraphs":["Doanh nghiệp có thể được thành lập mới gắn với một dự án đầu tư; hình thành thông qua giao dịch góp vốn, mua cổ phần hoặc phần vốn góp; hoặc chuyển đổi từ doanh nghiệp trong nước sau khi nhà đầu tư nước ngoài hoàn tất giao dịch mua vốn.","Mua lại doanh nghiệp đang hoạt động có thể rút ngắn thời gian tiếp cận thị trường nhưng nhà đầu tư tiếp nhận cả giá trị và rủi ro lịch sử của pháp nhân."]},
+      {"heading":"Loại hình và điều kiện tiếp cận thị trường","paragraphs":["Công ty TNHH một thành viên phù hợp với quyền kiểm soát tập trung; công ty TNHH hai thành viên trở lên phù hợp với nhóm nhà đầu tư xác định; công ty cổ phần phù hợp hơn với kế hoạch gọi vốn nhiều giai đoạn.","Trước khi đăng ký hoặc mua vốn, cần kiểm tra giới hạn tỷ lệ sở hữu, hình thức đầu tư, phạm vi hoạt động, yêu cầu đối tác và điều kiện kinh doanh áp dụng cho ngành nghề."]},
+      {"heading":"Vốn, tài khoản và giao dịch xuyên biên giới","paragraphs":["Vốn điều lệ là phần vốn các chủ sở hữu cam kết góp; tổng vốn đầu tư của dự án có thể gồm vốn góp và nguồn huy động khác. Doanh nghiệp phải theo dõi đúng số tiền, loại tiền, tài khoản, chủ thể chuyển và tiến độ góp vốn.","Góp vốn, chuyển nhượng, vay nước ngoài và chuyển lợi nhuận chịu sự điều chỉnh của pháp luật ngoại hối. Trước khi chuyển tiền, cần đối chiếu hợp đồng, hồ sơ đầu tư, tình trạng doanh nghiệp và hướng dẫn của ngân hàng phục vụ."]},
+      {"heading":"Nghĩa vụ trong quá trình hoạt động","paragraphs":["Bên cạnh thuế, kế toán, lao động và quản trị doanh nghiệp, doanh nghiệp có vốn nước ngoài còn cần theo dõi báo cáo đầu tư, tiến độ dự án, giấy phép chuyên ngành, lao động nước ngoài và giao dịch xuyên biên giới.","Khi thay đổi nhà đầu tư, mục tiêu, địa điểm, vốn hoặc tiến độ, doanh nghiệp phải đánh giá cả hồ sơ đầu tư lẫn đăng ký doanh nghiệp trước khi thực hiện."]},
+      {"heading":"Ưu đãi đầu tư và hệ thống tuân thủ","paragraphs":["Ưu đãi không phát sinh chỉ vì doanh nghiệp có vốn nước ngoài. Căn cứ hưởng ưu đãi thường nằm ở ngành nghề, địa bàn, quy mô hoặc tính chất dự án.","Một hệ thống quản lý phù hợp nên kết nối hồ sơ doanh nghiệp, hồ sơ đầu tư, giấy phép, sổ vốn, chứng từ ngân hàng và lịch báo cáo để mọi thay đổi được cập nhật đồng bộ."]}
+    ],
+    "takeaway":"Yếu tố nước ngoài ảnh hưởng xuyên suốt từ tiếp cận thị trường đến giao dịch vốn và vận hành; doanh nghiệp cần quản lý hồ sơ đầu tư và hồ sơ doanh nghiệp như một hệ thống thống nhất.",
+    "sources":[{"title":"Luật Đầu tư số 143/2025/QH15","url":"https://vanban.chinhphu.vn/?classid=1&docid=216524&orggroupid=1&pageid=27160"},{"title":"Nghị định số 96/2026/NĐ-CP","url":"https://vanban.chinhphu.vn/?classid=1&docid=217407&pageid=27160"},{"title":"Luật số 76/2025/QH15 sửa đổi Luật Doanh nghiệp","url":"https://vanban.chinhphu.vn/?classid=1&docid=214562&orggroupid=1&pageid=27160"}]
+  },
+  {
+    "slug": "mo-van-phong-dai-dien-cong-ty-nuoc-ngoai-tai-viet-nam",
+    "title": "Thành lập văn phòng đại diện của công ty nước ngoài tại Việt Nam năm 2026",
+    "category": "Đầu tư nước ngoài",
+    "date": "2026-08-24",
+    "updated": "24/08/2026",
+    "readTime": "8 phút đọc",
+    "description": "Điều kiện, hồ sơ, phạm vi hoạt động và các nghĩa vụ sau khi mở văn phòng đại diện của công ty nước ngoài tại Việt Nam.",
+    "intro": "Văn phòng đại diện phù hợp khi thương nhân nước ngoài muốn nghiên cứu thị trường, phát triển quan hệ đối tác và hỗ trợ công ty mẹ tại Việt Nam nhưng chưa trực tiếp kinh doanh tạo doanh thu.",
+    "sections": [
+      {"heading":"Văn phòng đại diện là gì?","paragraphs":["Văn phòng đại diện là đơn vị phụ thuộc của thương nhân nước ngoài được thành lập tại Việt Nam theo giấy phép. Chức năng chính là liên lạc, nghiên cứu thị trường và xúc tiến cơ hội đầu tư kinh doanh.","Văn phòng không phải doanh nghiệp độc lập và không được sử dụng để trực tiếp mua bán hàng hóa, cung ứng dịch vụ hoặc phát sinh doanh thu tại Việt Nam."]},
+      {"heading":"Điều kiện được cấp giấy phép","paragraphs":["Thương nhân nước ngoài phải được thành lập hoặc đăng ký hợp pháp; thông thường đã hoạt động ít nhất một năm. Nếu giấy đăng ký kinh doanh có thời hạn, thời hạn còn lại cần đáp ứng yêu cầu tại thời điểm nộp hồ sơ.","Nội dung hoạt động của văn phòng phải phù hợp với cam kết quốc tế của Việt Nam. Trường hợp chưa phù hợp, cơ quan cấp phép có thể phải lấy ý kiến cơ quan quản lý chuyên ngành."]},
+      {"heading":"Phạm vi hoạt động","paragraphs":["Văn phòng có thể làm đầu mối liên hệ, nghiên cứu thị trường, tìm kiếm đối tác, quảng bá hình ảnh công ty mẹ và theo dõi hợp đồng do công ty mẹ ký với đối tác Việt Nam.","Nếu mục tiêu là ký hợp đồng thương mại, thu tiền, xuất hóa đơn và ghi nhận doanh thu tại Việt Nam, nhà đầu tư nên đánh giá mô hình công ty hoặc chi nhánh thay vì văn phòng đại diện."]},
+      {"heading":"Hồ sơ cần chuẩn bị","paragraphs":["Hồ sơ thường gồm đơn đề nghị, giấy đăng ký kinh doanh của công ty mẹ, văn bản bổ nhiệm người đứng đầu, tài liệu chứng minh công ty mẹ vẫn hoạt động, giấy tờ của người đứng đầu và tài liệu về địa điểm.","Tài liệu nước ngoài phải được xử lý theo yêu cầu chứng nhận, hợp pháp hóa lãnh sự, dịch thuật và chứng thực, trừ trường hợp được miễn. Tên, địa chỉ, số đăng ký và người ký cần thống nhất trong toàn bộ hồ sơ."]},
+      {"heading":"Địa điểm và người đứng đầu","paragraphs":["Cơ quan cấp phép được xác định theo địa điểm dự kiến đặt văn phòng và cơ chế quản lý tại địa phương. Địa chỉ nên được kiểm tra trước khi ký hợp đồng thuê dài hạn.","Nếu người đứng đầu là người nước ngoài, thương nhân cần đánh giá riêng thủ tục giấy phép lao động hoặc xác nhận miễn, thị thực và cư trú. Việc cấp giấy phép văn phòng không tự động hoàn tất các thủ tục này."]},
+      {"heading":"Công việc sau cấp phép","paragraphs":["Văn phòng cần hoàn tất thủ tục về mã số thuế, tài khoản, nhân sự, lao động, biển hiệu và lưu trữ hồ sơ; đồng thời thực hiện nghĩa vụ báo cáo hoạt động theo quy định.","Giấy phép thông thường không quá năm năm và không vượt quá thời hạn còn lại của giấy đăng ký kinh doanh của công ty mẹ nếu tài liệu đó có thời hạn. Hồ sơ gia hạn nên được chuẩn bị trước khi giấy phép hết hiệu lực."]}
+    ],
+    "takeaway":"Văn phòng đại diện chỉ phù hợp với chức năng nghiên cứu, liên lạc và xúc tiến; mô hình cần được lựa chọn từ hoạt động thực tế, không chỉ từ mức độ đơn giản của thủ tục.",
+    "sources":[{"title":"Nghị định số 07/2016/NĐ-CP","url":"https://vanban.chinhphu.vn/default.aspx?docid=183283&pageid=27160"},{"title":"Văn bản hợp nhất số 23/VBHN-BCT ngày 30/03/2026","url":"https://vanban.chinhphu.vn/?docid=217737&pageid=27160"}]
+  }
+]

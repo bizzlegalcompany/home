@@ -1,0 +1,9 @@
+{
+  "name": "bizlegal-static-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-articles.mjs",
+    "build:articles": "node scripts/build-articles.mjs"
+  }
+}
